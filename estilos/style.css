@@ -113,6 +113,56 @@ footer{
     padding: 18px
 }
 
+/* maquinas */
+
+.firstSectionc{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: xx-large;
+}
+.imageContainerc{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+.imagec img{
+    display: flex;
+    justify-content: center;
+    height:200px;
+    width: 200px;
+    gap: 20px;
+    transition: all 2s;
+}
+.imagec :hover{
+    transform:scale(2)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width:768px){
     .grilla{
