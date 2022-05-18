@@ -2,13 +2,14 @@
 *{
     padding: 0;
     margin: 0;
-    
+
 }
 body{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: black;
     background-color: rgb(244, 174, 62);
-    
+
 }
+
 nav ul{
     display: flex;
     justify-content: start;
@@ -22,11 +23,12 @@ li a{
     font-size: large;
     color: rgb(254, 254, 254);
 }
+
 .firstSection h1{
     display: flex;
     justify-content: center;
     font-size: 60px; color: black;
-    
+
 
 }
 .logo{
@@ -56,7 +58,7 @@ li a{
     grid-template-rows: 15% 1fr 1fr;
     grid-template-areas:
     ".secondSection ."
-    "galeria galeria galeria" 
+    "galeria galeria galeria"
     ". video ."
 }
 .secondSection{
@@ -81,9 +83,10 @@ li a{
     height: 60px;
 }
 footer{
-    background-color: black;
+    background-color: rgb(43, 41, 41);
     color: white;
     margin-bottom: 0;
+    padding: 10px;
 }
 
 
@@ -100,14 +103,16 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+
 }
 .card img{
     width: 200px;
     height: 200px;
     border:solid 5px;
-    padding: 0;
-
+    padding: 0px;
 }
+
+
 .footerb{
     margin-bottom: 0;
     padding: 18px
@@ -151,28 +156,32 @@ footer{
 .footere{
 padding: 18px;
 
+
 }
 .footere h3{
-    font-size: large;
+    font-size: 25px;
 }
 
+/* pinturas */
+.firstSectiond{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+    margin-bottom: 6%;
+}
 
+.footerd{
+    padding: 5px;
+    margin-top: 40px;
+}
 
+.footerd h3{
+    font-size: 25px;
+}
+.logo-navbar{
+    height: 80px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
@@ -186,7 +195,7 @@ padding: 18px;
         grid-template-rows: 15% 40%;
         grid-template-areas:
         "secondSection ."
-        "galeria galeria" 
+        "galeria galeria"
         ". video "
     }
 
@@ -241,7 +250,7 @@ footer{
         grid-template-rows: 20%;
         grid-template-areas:
         "secondSection"
-        ". galeria" 
+        ". galeria"
         "video "
     }
     .hijo{
