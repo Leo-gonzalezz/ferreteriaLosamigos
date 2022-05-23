@@ -183,77 +183,89 @@ padding: 18px;
 
 }
 
+@media only screen and (max-width:1024px){
 
+.imageClass1{
+    border: solid black 5px;
+    width: 240px;
+    
+}
 
-
+}
 
 
 @media only screen and (max-width:768px){
     .grilla{
         display: grid;
         grid-template-columns: 25% 50%;
-        grid-template-rows: 15% 40%;
+        grid-template-rows: 15% 45%;
         grid-template-areas:
         "secondSection ."
         "galeria galeria"
         ". video "
     }
+    .container-fluid{
+        padding: 3%;
+    }
+
+    .video iframe{
+        height: 120px;
+        width: 200px;
+        margin: 40px;
+}
+.imageClass1{
+    width: 120px;
+    height:120px;
+}
+.secondSection{
+    font-size: 10px;
+    margin-top: 0;
+
+}
+footer{
+    margin-top: 150px;
+}
+
+}
+
+
+@media only screen and (max-width:600px){
+.grilla{
+        display: grid;
+        grid-template-columns: 90%;
+        grid-template-rows: 25%;
+        grid-template-areas:
+        "secondSection"
+        "galeria"
+        "video "
+}
 
 .firstSection h1{
-    font-size: 30px;
-    margin-right: 100px;
-
-}
-.firstSection h2 {
-    margin-right: 120px;
-}
-
-.firstSection p{
-    margin-right: 150px;
+    font-size: 50px;
 }
 .logo{
     height: 30px;
     margin: 10px 0 0 0;
-
 }
+
 .secondSection{
-    font-size: 20px;
-    margin-top: 0;
-}
-.hijo img{
-    height: 80px;
-    margin-top: 60px;
-}
+    margin-top: 40px;
 
+}
 .video iframe{
-    height: 150px;
-    width: 250px;
-}
-.video{
-margin-top:150px
-}
-footer{
-    margin-top: 300px;
+    height: 200px;
+    width: 200px;
+    margin-left: 200px;
 }
 .imageClass1{
-    margin-left: 50px;
-}
-.figcaption1{
-    margin-left:50px ;
-}
+    width: 140px;
+    height: 140px;
 }
 
-@media only screen and (max-width:475px){
-    .grilla{
-        display: grid;
-        grid-template-columns: 40%;
-        grid-template-rows: 20%;
-        grid-template-areas:
-        "secondSection"
-        ". galeria"
-        "video "
-    }
-    .hijo{
-        gap: 20px;
-    }
+.hijo{
+    gap: 5px;
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
 }
