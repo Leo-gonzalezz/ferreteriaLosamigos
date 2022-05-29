@@ -10,25 +10,6 @@ body {
   background-color: #f4ae3e;
 }
 
-nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: start;
-  list-style-type: none;
-  padding: 20px;
-  background-color: black;
-}
-
-li a {
-  text-decoration: none;
-  margin: 10px;
-  font-size: large;
-  color: #fefefe;
-}
-
 .firstSection h1 {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -82,10 +63,7 @@ li a {
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 15% 1fr 1fr;
       grid-template-rows: 15% 1fr 1fr;
-      grid-template-areas: 
-      ".secondSection ."
-      "galeria galeria galeria"
-      ". video .";
+      grid-template-areas: ".secondSection ." "galeria galeria galeria" ". video .";
 }
 
 .secondSection {
@@ -261,8 +239,6 @@ footer {
   transition: all 5s;
 }
 
-/*@media queries*/
-
 @media only screen and (max-width: 1024px) {
   .imageClass1 {
     border: solid black 5px;
@@ -278,10 +254,7 @@ footer {
         grid-template-columns: 25% 50%;
     -ms-grid-rows: 15% 45%;
         grid-template-rows: 15% 45%;
-        grid-template-areas: 
-        "secondSection ."
-        "galeria galeria"
-        ". video ";
+        grid-template-areas: "secondSection ." "galeria galeria" ". video ";
   }
   .container-fluid {
     padding: 3%;
@@ -312,10 +285,7 @@ footer {
         grid-template-columns: 90%;
     -ms-grid-rows: 25%;
         grid-template-rows: 25%;
-        grid-template-areas: 
-        "secondSection"
-        "galeria"
-        "video ";
+        grid-template-areas: "secondSection" "galeria" "video ";
   }
   .firstSection h1 {
     font-size: 50px;
@@ -342,4 +312,3 @@ footer {
     margin-bottom: 150px;
   }
 }
-/*# sourceMappingURL=style.css.map */
