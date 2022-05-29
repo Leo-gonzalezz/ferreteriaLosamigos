@@ -82,9 +82,10 @@ li a {
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 15% 1fr 1fr;
       grid-template-rows: 15% 1fr 1fr;
-      grid-template-areas: ".secondSection ."
- "galeria galeria galeria"
- ". video .";
+      grid-template-areas: 
+      ".secondSection ."
+      "galeria galeria galeria"
+      ". video .";
 }
 
 .secondSection {
@@ -259,6 +260,8 @@ footer {
   -webkit-transition: all 5s;
   transition: all 5s;
 }
+
+/*@media queries*/
 
 @media only screen and (max-width: 1024px) {
   .imageClass1 {
