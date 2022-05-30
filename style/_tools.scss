@@ -1,0 +1,26 @@
+/* herramientas */
+.firstSectionb{
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    text-transform:capitalize;
+    text-decoration: underline;
+}
+.cardContainerb{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.card img{
+    width: 200px;
+    height: 200px;
+    border:solid 5px;
+    padding: 0px;
+}
+
+.footerb{
+    margin-bottom: 0;
+    padding: 18px
+}

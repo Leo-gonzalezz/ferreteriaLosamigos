@@ -65,7 +65,9 @@ body {
       grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 15% 1fr 1fr;
       grid-template-rows: 15% 1fr 1fr;
-      grid-template-areas: ".secondSection ." "galeria galeria galeria" ". video .";
+      grid-template-areas: ".secondSection ."
+ "galeria galeria galeria"
+ ". video .";
 }
 
 .secondSection {
@@ -195,20 +197,6 @@ footer {
           transform: scale(2);
 }
 
-/* contacto */
-.sectione {
-  margin-top: 50px;
-  margin-bottom: 150px;
-}
-
-.footere {
-  padding: 18px;
-}
-
-.footere h3 {
-  font-size: 25px;
-}
-
 /* pinturas */
 .firstSectiond {
   display: -webkit-box;
@@ -241,6 +229,20 @@ footer {
   transition: all 5s;
 }
 
+/* contacto */
+.sectione {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.footere {
+  padding: 18px;
+}
+
+.footere h3 {
+  font-size: 25px;
+}
+
 /*@media queries*/
 @media only screen and (max-width: 1024px) {
   .imageClass1 {
@@ -257,7 +259,9 @@ footer {
         grid-template-columns: 25% 50%;
     -ms-grid-rows: 15% 45%;
         grid-template-rows: 15% 45%;
-        grid-template-areas: "secondSection ." "galeria galeria" ". video ";
+        grid-template-areas: "secondSection ."
+ "galeria galeria"
+ ". video ";
   }
   .container-fluid {
     padding: 3%;
@@ -288,7 +292,9 @@ footer {
         grid-template-columns: 90%;
     -ms-grid-rows: 25%;
         grid-template-rows: 25%;
-        grid-template-areas: "secondSection" "galeria" "video ";
+        grid-template-areas: "secondSection"
+ "galeria"
+ "video ";
   }
   .firstSection h1 {
     font-size: 50px;
