@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 *{
     padding: 0;
@@ -9,25 +10,11 @@ body{
     background-color: rgb(244, 174, 62);
 
 }
-
-
+ /* seccion index */
 .firstSection h1{
     display: flex;
     justify-content: center;
     font-size: 60px; color: black;
-
-
-}
-.logo{
-    margin-top: 25px;
-    width: 50px;
-    height:50px;
-
-}
-
-.thirdSection{
-    display: flex;
-    justify-content: center;
 }
 .firstSection h2{
     display: flex;
@@ -35,10 +22,27 @@ body{
     padding: 0;
 }
 .firstSection p{
+    margin-bottom: 5px;
     display: flex;
     justify-content: center;
-    margin-bottom: 5px;
 }
+
+.logo{
+    margin-top: 25px;
+    width: 50px;
+    height:50px;
+
+}
+
+
+.thirdSection{
+    display: flex;
+    justify-content: center;
+}
+
+
+/* grilla index*/
+
 .grilla{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -69,14 +73,14 @@ body{
     margin-bottom: 10px;
     height: 60px;
 }
+
+
 footer{
     background-color: rgb(43, 41, 41);
     color: white;
     margin-bottom: 0;
     padding: 10px;
 }
-
-
 /* herramientas */
 .firstSectionb{
     display: flex;
@@ -98,7 +102,6 @@ footer{
     border:solid 5px;
     padding: 0px;
 }
-
 
 .footerb{
     margin-bottom: 0;
@@ -142,12 +145,11 @@ footer{
 
 .footere{
 padding: 18px;
-
-
-}
-.footere h3{
+h3{
     font-size: 25px;
 }
+}
+
 
 /* pinturas */
 .firstSectiond{
@@ -160,11 +162,11 @@ padding: 18px;
 .footerd{
     padding: 5px;
     margin-top: 40px;
+    h3{
+        font-size: 25px;
+    }
 }
 
-.footerd h3{
-    font-size: 25px;
-}
 .logo-navbar{
     height: 80px;
 
@@ -177,7 +179,7 @@ padding: 18px;
 
 
 
-
+/*@media queries*/
 
 
 @media only screen and (max-width:1024px){
