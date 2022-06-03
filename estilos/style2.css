@@ -1,0 +1,129 @@
+/* contacto */
+.sectione {
+  margin-top: 50px;
+  margin-bottom: 150px;
+}
+
+.footere {
+  padding: 18px;
+}
+
+.footere h3 {
+  font-size: 25px;
+}
+
+/* pinturas */
+.firstSectiond {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 8%;
+  margin-bottom: 6%;
+}
+
+.footerd {
+  padding: 5px;
+  margin-top: 40px;
+}
+
+.footerd h3 {
+  font-size: 25px;
+}
+
+.logo-navbar {
+  height: 80px;
+}
+
+.col :hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+  -webkit-transition: all 5s;
+  transition: all 5s;
+}
+
+/* maquinas */
+.firstSectionc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: underline;
+  font-size: xx-large;
+}
+
+.imageContainerc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 150px;
+  margin-bottom: 200px;
+}
+
+.imagec img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 200px;
+  width: 200px;
+  gap: 20px;
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
+.imagec :hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+/* herramientas */
+.firstSectionb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 25px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-transform: capitalize;
+  text-decoration: underline;
+}
+
+.cardContainerb {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  border: solid 5px;
+  padding: 0px;
+}
+
+.footerb {
+  margin-bottom: 0;
+  padding: 18px;
+}
+
+/* extend */
