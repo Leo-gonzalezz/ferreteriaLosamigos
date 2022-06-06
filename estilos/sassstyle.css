@@ -1,3 +1,27 @@
+/* extend */
+.footerSize, h3 {
+  font-size: 25px;
+}
+
+/* mixin */
+.firstSectiond {
+  color: blue;
+  font-size: 123px;
+}
+
+/* mapas*/
+.btn--twitter {
+  background-color: #0000b6;
+}
+
+.btn--facebook {
+  background-color: #747498;
+}
+
+.btn--instagram {
+  background-color: #9e2222;
+}
+
 /* contacto */
 .sectione {
   margin-top: 50px;

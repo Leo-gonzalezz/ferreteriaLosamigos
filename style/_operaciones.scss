@@ -1,0 +1,31 @@
+
+/* extend */
+.footerSize{
+    font-size: 25px;
+}
+h3 {
+    @extend .footerSize
+};
+
+/* mixin */
+@mixin color ($color, $size) {
+    color: $color;
+    font-size: $size;
+}
+.firstSectiond{
+    @include color (blue , 123px)
+};
+
+
+/* mapas*/
+$redes: (
+    twitter: rgb(0, 0, 182),
+    facebook: rgb(116, 116, 152),
+    instagram: rgb(158, 34, 34),  
+);
+@each $red, $color in $redes{
+    .btn--#{$red}{
+        background-color: $color;
+
+    }
+};
