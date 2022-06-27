@@ -6,13 +6,12 @@ margin: 0;
 }
 
 
-/* general */
 body {
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 color: black;
 background-color: #f4ae3e;
 }
-/* index  */
+
 nav ul {
 display: -webkit-box;
 display: -ms-flexbox;
@@ -147,6 +146,7 @@ footer {
 .btn{
     background-color: black;
     color: #f4ae3e;
+    
 }
 
 .table{
@@ -158,7 +158,6 @@ footer {
 }
 
 
-/* herramientas */
 .firstSectionb {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -201,7 +200,7 @@ footer {
     padding: 18px;
 }
 
-/* maquinas */
+
 .firstSectionc {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -240,7 +239,6 @@ footer {
 }
 
 
-/* contacto */
 .sectione {
     margin-top: 50px;
     margin-bottom: 150px;
@@ -265,7 +263,6 @@ footer {
     margin-bottom: 2%;
 }
 
-/* pinturas */
 .firstSectiond {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -300,7 +297,7 @@ footer {
 
 
 
-/* media queries */
+
 @media only screen and (max-width: 1024px) {
 .imageClass1 {
     border: solid black 5px;
